@@ -1,0 +1,10 @@
+﻿@using BulkyBook.Models
+@model List<Category>
+<h1>Categories List</h1>
+
+@foreach (var category in Model)
+{
+    <div>
+        <h2>@category.Name</h2>
+    </div>
+}
